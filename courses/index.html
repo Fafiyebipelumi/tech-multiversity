@@ -315,7 +315,28 @@ Software.
     </a>
     </li>
     <li>
-    <a href="mailing/inbox/index.html" class="flex items-center py-2.5 px-4 text-base font-normal text-dark-500 rounded-lg hover:bg-gray-200  group transition-all duration-200" sidebar-toggle-collapse>
+    <a href="/mailing/inbox/index.html" class="flex items-center py-2.5 px-4 text-base font-normal text-dark-500 rounded-lg hover:bg-gray-200  group transition-all duration-200" sidebar-toggle-collapse>
+    <div class="bg-white shadow-lg shadow-gray-300  text-dark-700 w-8 h-8 p-2.5 mr-1 rounded-lg text-center grid place-items-center">
+    <svg width="12px" height="12px" viewBox="0 0 46 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>customer-support</title>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <g transform="translate(-1717.000000, -291.000000)" fill="currentColor" fill-rule="nonzero">
+    <g transform="translate(1716.000000, 291.000000)">
+    <g transform="translate(1.000000, 0.000000)">
+    <path class="color-background" d="M45,0 L26,0 C25.447,0 25,0.447 25,1 L25,20 C25,20.379 25.214,20.725 25.553,20.895 C25.694,20.965 25.848,21 26,21 C26.212,21 26.424,20.933 26.6,20.8 L34.333,15 L45,15 C45.553,15 46,14.553 46,14 L46,1 C46,0.447 45.553,0 45,0 Z" opacity="0.59858631"></path>
+    <path class="color-foreground" d="M22.883,32.86 C20.761,32.012 17.324,31 13,31 C8.676,31 5.239,32.012 3.116,32.86 C1.224,33.619 0,35.438 0,37.494 L0,41 C0,41.553 0.447,42 1,42 L25,42 C25.553,42 26,41.553 26,41 L26,37.494 C26,35.438 24.776,33.619 22.883,32.86 Z"></path>
+    <path class="color-foreground" d="M13,28 C17.432,28 21,22.529 21,18 C21,13.589 17.411,10 13,10 C8.589,10 5,13.589 5,18 C5,22.529 8.568,28 13,28 Z"></path>
+    </g>
+    </g>
+    </g>
+    </g>
+    </svg>
+    </div>
+    <span class="ml-3 text-dark-500 text-sm font-light" sidebar-toggle-item>Messages</span>
+    </a>
+    </li>
+    <li>
+    <a href="/pages/maintenance/index.html" class="flex items-center py-2.5 px-4 text-base font-normal text-dark-500 rounded-lg hover:bg-gray-200  group transition-all duration-200" sidebar-toggle-collapse>
     <div class="bg-white shadow-lg shadow-gray-300  text-dark-700 w-8 h-8 p-2.5 mr-1 rounded-lg text-center grid place-items-center">
     <svg width="12px" height="12px" viewBox="0 0 46 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>customer-support</title>
@@ -637,14 +658,16 @@ Software.
     </div>
     </div>
     </aside>
+
+
 <div class="hidden fixed inset-0 z-10 bg-gray-900 opacity-50" id="sidebarBackdrop"></div>
 <div id="main-content" class="h-full w-full bg-gray-50 relative overflow-y-auto lg:ml-64">
 <main>
 <div class="p-4 block sm:flex items-center justify-between border-b border-gray-200 lg:mt-1.5">
 <div class="block items-center mb-3 divide-x divide-gray-100 sm:flex sm:mb-0">
 <div class="flex justify-start items-center">
-<h3 class="mr-3 text-sm font-normal text-gray-500">Team members:</h3>
-<a href="#" data-tooltip-target="bonnie-tooltip" class="-mr-3">
+<h3 class="mr-3 text-lg font-bold text-dark-700">Courses</h3>
+<!-- <a href="#" data-tooltip-target="bonnie-tooltip" class="-mr-3">
 <img class="w-8 h-8 rounded-full border-2 border-white" src="../images/users/bonnie-green.png" alt="Bonnie Green" />
 </a>
 <div id="bonnie-tooltip" role="tooltip" class="inline-block absolute invisible z-10 py-2 px-3 text-sm font-medium text-white bg-gray-900 rounded-2xl opacity-0 transition-opacity duration-300 tooltip shadow-lg-sm">
@@ -671,7 +694,7 @@ Jese Leos
 <div id="michael-tooltip" role="tooltip" class="inline-block absolute invisible z-10 py-2 px-3 text-sm font-medium text-white bg-gray-900 rounded-2xl opacity-0 transition-opacity duration-300 tooltip shadow-lg-sm">
 Michael Gough
 <div class="tooltip-arrow" data-popper-arrow></div>
-</div>
+</div> -->
 </div>
 </div>
 <div class="inline-flex items-center space-x-3">
@@ -694,11 +717,11 @@ Michael Gough
 <div class="overflow-hidden shadow-lg">
 <div class="flex justify-start items-start px-4 mb-6 space-x-6">
 <div class="min-w-20">
-<div class="py-4 text-base font-semibold text-gray-900">To Do</div>
+<div class="py-4 text-base font-semibold text-gray-900">Available Courses</div>
 <div id="kanban-list-1" class="p-4 mb-6 space-y-6 bg-gray-200 rounded-xl min-w-20">
-<div class="flex flex-col p-5 max-w-md bg-white rounded-2xl shadow-sm transform cursor-move">
+<!-- <div class="flex flex-col p-5 max-w-md bg-white rounded-2xl shadow-sm transform cursor-move">
 <div class="flex justify-between items-center pb-4">
-<div class="text-base font-semibold text-gray-900">Change charts javascript</div>
+<div class="text-base font-semibold text-gray-900">GodFather Selling Secrets</div>
 <button type="button" data-modal-toggle="kanban-card-modal" class="p-1 text-gray-500 hover:text-gray-900">
 <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M17.414 2.586a2 2 0 00-2.828 0L7 10.172V13h2.828l7.586-7.586a2 2 0 000-2.828z"></path><path fill-rule="evenodd" d="M2 6a2 2 0 012-2h4a1 1 0 010 2H4v10h10v-4a1 1 0 112 0v4a2 2 0 01-2 2H4a2 2 0 01-2-2V6z" clip-rule="evenodd"></path></svg>
 </button>
@@ -729,21 +752,21 @@ Michael Gough
 </div>
 </div>
 </div>
-</div>
+</div> -->
 <div class="flex flex-col p-5 max-w-md bg-white rounded-2xl shadow-sm transform cursor-move">
 <div class="flex justify-between items-center pb-4">
-<div class="text-base font-semibold text-gray-900">Change homepage</div>
-<button type="button" data-modal-toggle="kanban-card-modal" class="p-1 text-gray-500 hover:text-gray-900">
+<div class="text-base font-semibold text-gray-900">GodFather Selling Secrets</div>
+<!-- <button type="button" data-modal-toggle="kanban-card-modal" class="p-1 text-gray-500 hover:text-gray-900">
 <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M17.414 2.586a2 2 0 00-2.828 0L7 10.172V13h2.828l7.586-7.586a2 2 0 000-2.828z"></path><path fill-rule="evenodd" d="M2 6a2 2 0 012-2h4a1 1 0 010 2H4v10h10v-4a1 1 0 112 0v4a2 2 0 01-2 2H4a2 2 0 01-2-2V6z" clip-rule="evenodd"></path></svg>
-</button>
+</button> -->
 </div>
 <div class="flex justify-center items-center pb-4">
 <img class="bg-contain rounded-2xl" src="../images/kanban/task-3.jpg" alt="attachment" />
 </div>
 <div class="flex flex-col">
-<div class="pb-4 text-sm font-normal text-gray-700">Change homepage for Volt Dashboard.</div>
+<div class="pb-4 text-sm font-normal text-gray-700">GodFather Selling Secret is a course that every aspiring marketer should get because the deep secrets about marketing is revealed in this course.</div>
 <div class="flex justify-between">
-<div class="flex justify-start items-center">
+<!-- <div class="flex justify-start items-center">
 <a href="#" data-tooltip-target="user_23_1" class="-mr-3">
 <img class="w-7 h-7 rounded-full border-2 border-white" src="../images/users/bonnie-green.png" alt="Bonnie Green" />
 </a>
@@ -759,95 +782,54 @@ Michael Gough
 </a>
 <div id="user_23_3" role="tooltip" class="inline-block absolute invisible z-50 py-2 px-3 text-sm font-medium text-white bg-gray-900 rounded-2xl opacity-0 transition-opacity duration-300 tooltip shadow-lg-sm">Michael Gough<div class="tooltip-arrow" data-popper-arrow></div>
 </div>
-</div>
-<div class="flex justify-center items-center px-3 text-xs font-bold uppercase text-white bg-gradient-to-br from-pink-500 to-voilet-500 rounded-2xl">
-<svg class="mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clip-rule="evenodd"></path></svg>
-22 days left
-</div>
+</div> -->
+<div class="flex justify-center items-center px-3 py-3 text-xs font-bold uppercase text-white bg-gradient-to-br from-pink-500 to-voilet-500 rounded-2xl cursor-pointer">
+Buy Course</div>
 </div>
 </div>
 </div>
 <div class="flex flex-col p-5 max-w-md bg-white rounded-2xl shadow-sm transform cursor-move">
 <div class="flex justify-between items-center pb-4">
-<div class="text-base font-semibold text-gray-900">Change charts javascript</div>
-<button type="button" data-modal-toggle="kanban-card-modal" class="p-1 text-gray-500 hover:text-gray-900">
+<div class="text-base font-semibold text-gray-900">GodFather Selling Secrets 2</div>
+<!-- <button type="button" data-modal-toggle="kanban-card-modal" class="p-1 text-gray-500 hover:text-gray-900">
 <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M17.414 2.586a2 2 0 00-2.828 0L7 10.172V13h2.828l7.586-7.586a2 2 0 000-2.828z"></path><path fill-rule="evenodd" d="M2 6a2 2 0 012-2h4a1 1 0 010 2H4v10h10v-4a1 1 0 112 0v4a2 2 0 01-2 2H4a2 2 0 01-2-2V6z" clip-rule="evenodd"></path></svg>
-</button>
+</button> -->
 </div>
+<div class="flex justify-center items-center pb-4">
+  <img class="bg-contain rounded-2xl" src="../images/kanban/task-3.jpg" alt="attachment" />
+  </div>
 <div class="flex flex-col">
-<div class="pb-4 text-sm font-normal text-gray-700">In _variables.scss on line 672 you define $table_variants. Each instance of "color-level" needs to be changed to "shift-color".</div>
+<div class="pb-4 text-sm font-normal text-gray-700">This is the continuation of the first "GodFather Selling Secrets" course, many more deeps secrets about selling are revealed in this course as well.</div>
 <div class="flex justify-between">
-<div class="flex justify-start items-center">
-<a href="#" data-tooltip-target="user_65_1" class="-mr-3">
-<img class="w-7 h-7 rounded-full border-2 border-white" src="../images/users/bonnie-green.png" alt="Bonnie Green" />
-</a>
-<div id="user_65_1" role="tooltip" class="inline-block absolute invisible z-50 py-2 px-3 text-sm font-medium text-white bg-gray-900 rounded-2xl opacity-0 transition-opacity duration-300 tooltip shadow-lg-sm">Bonnie Green<div class="tooltip-arrow" data-popper-arrow></div>
-</div>
-<a href="#" data-tooltip-target="user_65_2" class="-mr-3">
-<img class="w-7 h-7 rounded-full border-2 border-white" src="../images/users/roberta-casas.png" alt="Roberta Casas" />
-</a>
-<div id="user_65_2" role="tooltip" class="inline-block absolute invisible z-50 py-2 px-3 text-sm font-medium text-white bg-gray-900 rounded-2xl opacity-0 transition-opacity duration-300 tooltip shadow-lg-sm">Roberta Casas<div class="tooltip-arrow" data-popper-arrow></div>
-</div>
-<a href="#" data-tooltip-target="user_65_3" class="-mr-3">
-<img class="w-7 h-7 rounded-full border-2 border-white" src="../images/users/michael-gough.png" alt="Michael Gough" />
-</a>
-<div id="user_65_3" role="tooltip" class="inline-block absolute invisible z-50 py-2 px-3 text-sm font-medium text-white bg-gray-900 rounded-2xl opacity-0 transition-opacity duration-300 tooltip shadow-lg-sm">Michael Gough<div class="tooltip-arrow" data-popper-arrow></div>
-</div>
-</div>
-<div class="flex justify-center items-center px-3 text-xs font-bold uppercase text-white bg-gradient-to-br from-pink-500 to-voilet-500 rounded-2xl">
-<svg class="mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clip-rule="evenodd"></path></svg>
-7 days left
+<div class="flex justify-center items-center px-3 py-3 text-xs font-bold uppercase text-white bg-gradient-to-br from-pink-500 to-voilet-500 rounded-2xl">
+Buy Course
 </div>
 </div>
 </div>
 </div>
 </div>
-<button type="button" data-modal-toggle="new-card-modal" class="flex justify-center items-center py-2 w-full font-medium text-gray-900 bg-gray-200 rounded-lg hover:bg-gray-300 hover:text-gray-900 hover:border-gray-300">
-<svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 5a1 1 0 011 1v3h3a1 1 0 110 2h-3v3a1 1 0 11-2 0v-3H6a1 1 0 110-2h3V6a1 1 0 011-1z" clip-rule="evenodd"></path></svg>
-Add another card
-</button>
 </div>
 <div class="min-w-20">
 <div class="py-4 text-base font-semibold text-gray-900">In Progress</div>
 <div id="kanban-list-2" class="p-4 mb-6 space-y-6 bg-gray-200 rounded-xl min-w-20">
 <div class="flex flex-col p-5 max-w-md bg-white rounded-2xl shadow-sm transform cursor-move">
 <div class="flex justify-between items-center pb-4">
-<div class="text-base font-semibold text-gray-900">Redesign tables card</div>
-<button type="button" data-modal-toggle="kanban-card-modal" class="p-1 text-gray-500 hover:text-gray-900">
-<svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M17.414 2.586a2 2 0 00-2.828 0L7 10.172V13h2.828l7.586-7.586a2 2 0 000-2.828z"></path><path fill-rule="evenodd" d="M2 6a2 2 0 012-2h4a1 1 0 010 2H4v10h10v-4a1 1 0 112 0v4a2 2 0 01-2 2H4a2 2 0 01-2-2V6z" clip-rule="evenodd"></path></svg>
-</button>
+<div class="text-base font-semibold text-gray-900">360 Degree Mentorship</div>
 </div>
 <div class="flex justify-center items-center pb-4">
 <img class="bg-contain rounded-2xl" src="../images/kanban/task-1.jpg" alt="attachment" />
 </div>
 <div class="flex flex-col">
-<div class="pb-4 text-sm font-normal text-gray-700">In _variables.scss on line 672 you define $table_variants. Each instance of "color-level" needs to be changed to "shift-color".</div>
+<div class="pb-4 text-sm font-normal text-gray-700">Continue the course and learn more...</div>
 <div class="flex justify-between">
-<div class="flex justify-start items-center">
-<a href="#" data-tooltip-target="user_76_1" class="-mr-3">
-<img class="w-7 h-7 rounded-full border-2 border-white" src="../images/users/bonnie-green.png" alt="Bonnie Green" />
-</a>
-<div id="user_76_1" role="tooltip" class="inline-block absolute invisible z-50 py-2 px-3 text-sm font-medium text-white bg-gray-900 rounded-2xl opacity-0 transition-opacity duration-300 tooltip shadow-lg-sm">Bonnie Green<div class="tooltip-arrow" data-popper-arrow></div>
-</div>
-<a href="#" data-tooltip-target="user_76_2" class="-mr-3">
-<img class="w-7 h-7 rounded-full border-2 border-white" src="../images/users/roberta-casas.png" alt="Roberta Casas" />
-</a>
-<div id="user_76_2" role="tooltip" class="inline-block absolute invisible z-50 py-2 px-3 text-sm font-medium text-white bg-gray-900 rounded-2xl opacity-0 transition-opacity duration-300 tooltip shadow-lg-sm">Roberta Casas<div class="tooltip-arrow" data-popper-arrow></div>
-</div>
-<a href="#" data-tooltip-target="user_76_3" class="-mr-3">
-<img class="w-7 h-7 rounded-full border-2 border-white" src="../images/users/michael-gough.png" alt="Michael Gough" />
-</a>
-<div id="user_76_3" role="tooltip" class="inline-block absolute invisible z-50 py-2 px-3 text-sm font-medium text-white bg-gray-900 rounded-2xl opacity-0 transition-opacity duration-300 tooltip shadow-lg-sm">Michael Gough<div class="tooltip-arrow" data-popper-arrow></div>
-</div>
-</div>
-<div class="flex justify-center items-center px-3 text-xs font-bold uppercase text-white bg-gradient-to-br from-pink-500 to-voilet-500 rounded-2xl">
-<svg class="mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clip-rule="evenodd"></path></svg>
-9 days left
+
+<div class="flex justify-center items-center cursor-pointer px-3 py-3 text-xs font-bold uppercase text-white bg-gradient-to-br from-pink-500 to-voilet-500 rounded-2xl">
+Continue Course
 </div>
 </div>
 </div>
 </div>
-<div class="flex flex-col p-5 max-w-md bg-white rounded-2xl shadow-sm transform cursor-move">
+<!-- <div class="flex flex-col p-5 max-w-md bg-white rounded-2xl shadow-sm transform cursor-move">
 <div class="flex justify-between items-center pb-4">
 <div class="text-base font-semibold text-gray-900">Redesign tables card</div>
 <button type="button" data-modal-toggle="kanban-card-modal" class="p-1 text-gray-500 hover:text-gray-900">
@@ -880,47 +862,27 @@ Add another card
 </div>
 </div>
 </div>
+</div> -->
 </div>
-</div>
-<button type="button" data-modal-toggle="new-card-modal" class="flex justify-center items-center py-2 w-full font-medium text-gray-900 bg-gray-200 rounded-lg hover:bg-gray-300 hover:text-gray-900 hover:border-gray-300">
+<!-- <button type="button" data-modal-toggle="new-card-modal" class="flex justify-center items-center py-2 w-full font-medium text-gray-900 bg-gray-200 rounded-lg hover:bg-gray-300 hover:text-gray-900 hover:border-gray-300">
 <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 5a1 1 0 011 1v3h3a1 1 0 110 2h-3v3a1 1 0 11-2 0v-3H6a1 1 0 110-2h3V6a1 1 0 011-1z" clip-rule="evenodd"></path></svg>
 Add another card
-</button>
+</button> -->
 </div>
 <div class="min-w-20">
-<div class="py-4 text-base font-semibold text-gray-900">Done</div>
+<div class="py-4 text-base font-semibold text-gray-900">Completed Courses</div>
 <div id="kanban-list-3" class="p-4 mb-6 space-y-6 bg-gray-200 rounded-xl min-w-20">
 <div class="flex flex-col p-5 max-w-md bg-white rounded-2xl shadow-sm transform cursor-move">
 <div class="flex justify-between items-center pb-4">
-<div class="text-base font-semibold text-gray-900">Redesign tables card</div>
-<button type="button" data-modal-toggle="kanban-card-modal" class="p-1 text-gray-500 hover:text-gray-900">
-<svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M17.414 2.586a2 2 0 00-2.828 0L7 10.172V13h2.828l7.586-7.586a2 2 0 000-2.828z"></path><path fill-rule="evenodd" d="M2 6a2 2 0 012-2h4a1 1 0 010 2H4v10h10v-4a1 1 0 112 0v4a2 2 0 01-2 2H4a2 2 0 01-2-2V6z" clip-rule="evenodd"></path></svg>
-</button>
+<div class="text-base font-semibold text-gray-900">Billionaire Affiliate Group</div>
 </div>
 <div class="flex justify-center items-center pb-4">
 <img class="bg-contain rounded-2xl" src="../images/kanban/task-2.jpg" alt="attachment" />
 </div>
 <div class="flex flex-col">
-<div class="pb-4 text-sm font-normal text-gray-700">In _variables.scss on line 672 you define $table_variants. Each instance of "color-level" needs to be changed to "shift-color".</div>
+<div class="pb-4 text-sm font-normal text-gray-700">Billionaire Affiliate Group is a course that changes people&apos;s narrative about money and sales. Congratulation, you completed the course.</div>
 <div class="flex justify-between">
-<div class="flex justify-start items-center">
-<a href="#" data-tooltip-target="user_87_1" class="-mr-3">
-<img class="w-7 h-7 rounded-full border-2 border-white" src="../images/users/bonnie-green.png" alt="Bonnie Green" />
-</a>
-<div id="user_87_1" role="tooltip" class="inline-block absolute invisible z-50 py-2 px-3 text-sm font-medium text-white bg-gray-900 rounded-2xl opacity-0 transition-opacity duration-300 tooltip shadow-lg-sm">Bonnie Green<div class="tooltip-arrow" data-popper-arrow></div>
-</div>
-<a href="#" data-tooltip-target="user_87_2" class="-mr-3">
-<img class="w-7 h-7 rounded-full border-2 border-white" src="../images/users/roberta-casas.png" alt="Roberta Casas" />
-</a>
-<div id="user_87_2" role="tooltip" class="inline-block absolute invisible z-50 py-2 px-3 text-sm font-medium text-white bg-gray-900 rounded-2xl opacity-0 transition-opacity duration-300 tooltip shadow-lg-sm">Roberta Casas<div class="tooltip-arrow" data-popper-arrow></div>
-</div>
-<a href="#" data-tooltip-target="user_87_3" class="-mr-3">
-<img class="w-7 h-7 rounded-full border-2 border-white" src="../images/users/michael-gough.png" alt="Michael Gough" />
-</a>
-<div id="user_87_3" role="tooltip" class="inline-block absolute invisible z-50 py-2 px-3 text-sm font-medium text-white bg-gray-900 rounded-2xl opacity-0 transition-opacity duration-300 tooltip shadow-lg-sm">Michael Gough<div class="tooltip-arrow" data-popper-arrow></div>
-</div>
-</div>
-<div class="flex justify-center items-center px-3 text-xs font-bold uppercase text-white bg-gradient-to-br from-green-500 to-green-700 rounded-2xl">
+<div class="flex justify-center items-center px-3 py-3 text-xs font-bold uppercase text-white bg-gradient-to-br from-green-500 to-green-700 rounded-2xl">
 <svg class="mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
 Done
 </div>
@@ -928,87 +890,49 @@ Done
 </div>
 </div>
 <div class="flex flex-col p-5 max-w-md bg-white rounded-2xl shadow-sm transform cursor-move">
-<div class="flex justify-between items-center pb-4">
-<div class="text-base font-semibold text-gray-900">Redesign tables card</div>
-<button type="button" data-modal-toggle="kanban-card-modal" class="p-1 text-gray-500 hover:text-gray-900">
-<svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M17.414 2.586a2 2 0 00-2.828 0L7 10.172V13h2.828l7.586-7.586a2 2 0 000-2.828z"></path><path fill-rule="evenodd" d="M2 6a2 2 0 012-2h4a1 1 0 010 2H4v10h10v-4a1 1 0 112 0v4a2 2 0 01-2 2H4a2 2 0 01-2-2V6z" clip-rule="evenodd"></path></svg>
-</button>
-</div>
-<div class="flex flex-col">
-<div class="pb-4 text-sm font-normal text-gray-700">In _variables.scss on line 672 you define $table_variants. Each instance of "color-level" needs to be changed to "shift-color".</div>
-<div class="flex justify-between">
-<div class="flex justify-start items-center">
-<a href="#" data-tooltip-target="user_43_1" class="-mr-3">
-<img class="w-7 h-7 rounded-full border-2 border-white" src="../images/users/bonnie-green.png" alt="Bonnie Green" />
-</a>
-<div id="user_43_1" role="tooltip" class="inline-block absolute invisible z-50 py-2 px-3 text-sm font-medium text-white bg-gray-900 rounded-2xl opacity-0 transition-opacity duration-300 tooltip shadow-lg-sm">Bonnie Green<div class="tooltip-arrow" data-popper-arrow></div>
-</div>
-<a href="#" data-tooltip-target="user_43_2" class="-mr-3">
-<img class="w-7 h-7 rounded-full border-2 border-white" src="../images/users/roberta-casas.png" alt="Roberta Casas" />
-</a>
-<div id="user_43_2" role="tooltip" class="inline-block absolute invisible z-50 py-2 px-3 text-sm font-medium text-white bg-gray-900 rounded-2xl opacity-0 transition-opacity duration-300 tooltip shadow-lg-sm">Roberta Casas<div class="tooltip-arrow" data-popper-arrow></div>
-</div>
-<a href="#" data-tooltip-target="user_43_3" class="-mr-3">
-<img class="w-7 h-7 rounded-full border-2 border-white" src="../images/users/michael-gough.png" alt="Michael Gough" />
-</a>
-<div id="user_43_3" role="tooltip" class="inline-block absolute invisible z-50 py-2 px-3 text-sm font-medium text-white bg-gray-900 rounded-2xl opacity-0 transition-opacity duration-300 tooltip shadow-lg-sm">Michael Gough<div class="tooltip-arrow" data-popper-arrow></div>
-</div>
-</div>
-<div class="flex justify-center items-center px-3 text-xs font-bold uppercase text-white bg-gradient-to-br from-green-500 to-green-700 rounded-2xl">
-<svg class="mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-Done
-</div>
-</div>
-</div>
-</div>
-<div class="flex flex-col p-5 max-w-md bg-white rounded-2xl shadow-sm transform cursor-move">
-<div class="flex justify-between items-center pb-4">
-<div class="text-base font-semibold text-gray-900">Create Javascript elements</div>
-<button type="button" data-modal-toggle="kanban-card-modal" class="p-1 text-gray-500 hover:text-gray-900">
-<svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M17.414 2.586a2 2 0 00-2.828 0L7 10.172V13h2.828l7.586-7.586a2 2 0 000-2.828z"></path><path fill-rule="evenodd" d="M2 6a2 2 0 012-2h4a1 1 0 010 2H4v10h10v-4a1 1 0 112 0v4a2 2 0 01-2 2H4a2 2 0 01-2-2V6z" clip-rule="evenodd"></path></svg>
-</button>
-</div>
-<div class="flex flex-col">
-<div class="pb-4 text-sm font-normal text-gray-700">In _variables.scss on line 672 you define $table_variants. Each instance of "color-level" needs to be changed to "shift-color".</div>
-<div class="flex justify-between">
-<div class="flex justify-start items-center">
-<a href="#" data-tooltip-target="user_34_1" class="-mr-3">
-<img class="w-7 h-7 rounded-full border-2 border-white" src="../images/users/bonnie-green.png" alt="Bonnie Green" />
-</a>
-<div id="user_34_1" role="tooltip" class="inline-block absolute invisible z-50 py-2 px-3 text-sm font-medium text-white bg-gray-900 rounded-2xl opacity-0 transition-opacity duration-300 tooltip shadow-lg-sm">Bonnie Green<div class="tooltip-arrow" data-popper-arrow></div>
-</div>
-<a href="#" data-tooltip-target="user_34_2" class="-mr-3">
-<img class="w-7 h-7 rounded-full border-2 border-white" src="../images/users/roberta-casas.png" alt="Roberta Casas" />
-</a>
-<div id="user_34_2" role="tooltip" class="inline-block absolute invisible z-50 py-2 px-3 text-sm font-medium text-white bg-gray-900 rounded-2xl opacity-0 transition-opacity duration-300 tooltip shadow-lg-sm">Roberta Casas<div class="tooltip-arrow" data-popper-arrow></div>
-</div>
-<a href="#" data-tooltip-target="user_34_3" class="-mr-3">
-<img class="w-7 h-7 rounded-full border-2 border-white" src="../images/users/michael-gough.png" alt="Michael Gough" />
-</a>
-<div id="user_34_3" role="tooltip" class="inline-block absolute invisible z-50 py-2 px-3 text-sm font-medium text-white bg-gray-900 rounded-2xl opacity-0 transition-opacity duration-300 tooltip shadow-lg-sm">Michael Gough<div class="tooltip-arrow" data-popper-arrow></div>
+  <div class="flex justify-between items-center pb-4">
+  <div class="text-base font-semibold text-gray-900">Trinity Course Bundle</div>
+  </div>
+  <div class="flex justify-center items-center pb-4">
+  <img class="bg-contain rounded-2xl" src="../images/kanban/task-2.jpg" alt="attachment" />
+  </div>
+  <div class="flex flex-col">
+  <div class="pb-4 text-sm font-normal text-gray-700">Trinity Course Bundle is a course that changes people&apos;s narrative about money and sales. Congratulation, you completed the course.</div>
+  <div class="flex justify-between">
+  <div class="flex justify-center items-center px-3 py-3 text-xs font-bold uppercase text-white bg-gradient-to-br from-green-500 to-green-700 rounded-2xl">
+  <svg class="mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+  Done
+  </div>
+  </div>
+  </div>
+  </div>
+  <div class="flex flex-col p-5 max-w-md bg-white rounded-2xl shadow-sm transform cursor-move">
+    <div class="flex justify-between items-center pb-4">
+    <div class="text-base font-semibold text-gray-900">Intro to Degree Mentorship</div>
+    </div>
+    <div class="flex justify-center items-center pb-4">
+    <img class="bg-contain rounded-2xl" src="../images/kanban/task-2.jpg" alt="attachment" />
+    </div>
+    <div class="flex flex-col">
+    <div class="pb-4 text-sm font-normal text-gray-700">This is the introduction to Degree Mentorship. Congratulation, you completed the course.</div>
+    <div class="flex justify-between">
+    <div class="flex justify-center items-center px-3 py-3 text-xs font-bold uppercase text-white bg-gradient-to-br from-green-500 to-green-700 rounded-2xl">
+    <svg class="mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+    Done
+    </div>
+    </div>
+    </div>
+    </div>
 </div>
 </div>
-<div class="flex justify-center items-center px-3 text-xs font-bold uppercase text-white bg-gradient-to-br from-green-500 to-green-700 rounded-2xl">
-<svg class="mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-Done
-</div>
-</div>
-</div>
-</div>
-</div>
-<button type="button" data-modal-toggle="new-card-modal" class="flex justify-center items-center py-2 w-full font-medium text-gray-900 bg-gray-200 rounded-lg hover:bg-gray-300 hover:text-gray-900 hover:border-gray-300">
-<svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 5a1 1 0 011 1v3h3a1 1 0 110 2h-3v3a1 1 0 11-2 0v-3H6a1 1 0 110-2h3V6a1 1 0 011-1z" clip-rule="evenodd"></path></svg>
-Add another card
-</button>
-</div>
-<div class="min-w-20">
+<!-- <div class="min-w-20">
 <div class="py-4 text-base font-semibold text-gray-900">
 Add another group
 </div>
 <button type="button" data-modal-toggle="new-card-modal" class="flex justify-center items-center py-2 m-0 w-full h-32 font-semibold text-gray-500 rounded-lg border-2 border-gray-200 border-dashed hover:bg-gray-100 hover:text-gray-900 hover:border-gray-300">
 <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path></svg>
 </button>
-</div>
+</div> -->
 </div>
 </div>
 </div>
